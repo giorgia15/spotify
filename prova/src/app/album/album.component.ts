@@ -9,7 +9,7 @@ import { SpotifyService } from '../spotify.service';
   templateUrl: './albums.component.html',
   styleUrls: ['./albums.component.css']
 })
-export class ArtistComponent implements OnInit {
+export class AlbumComponent implements OnInit {
 //Osserva gli eventi sulla route artists, restituisce la ParamMap che contiene tutti i   
   //parametri passati all’url
   routeObs: Observable<ParamMap>;
