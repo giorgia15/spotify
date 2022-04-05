@@ -36,7 +36,7 @@ export class SpotifyService {
      const url = `https://api.spotify.com/v1/artists/${id}`;
      const headers = new HttpHeaders({
        Authorization:
-         'Bearer  BQBwVzKAcyDAbHc7LaswwbbKAS5sRq7FxE0ThoBPxbCe2QecWpiTuZ81n_vJCsIxmSi6DI_2dnXrszNoCu9hJnJUJYsLFtN5mVfuEhPy0z2dGdUiCeCNwPbrGTU2CrpjHzpg7_JnCom484o7nW_QxDV2F2nYnxI'
+         'Bearer  BQDepY94rIt51SX247GuSOCNXh8pV2FiRqQeMX-IDNWOhivW6KbTB7Ak3bGdLZa5Pp4l1xxPbIdpUWNT7cIg4kiPLNltA46XikL5kS7kCq6UUN7Xv13JdrfIr199c-SQrAL_UQT0A9To3dayQa5j7iM4x0Z5t54'
      });
      
      return this.http.get(url, { headers });
@@ -45,7 +45,7 @@ export class SpotifyService {
     const url = `https://api.spotify.com/v1/albums/{id}`;
     const headers = new HttpHeaders({
       Authorization:
-        'Bearer  BQBwVzKAcyDAbHc7LaswwbbKAS5sRq7FxE0ThoBPxbCe2QecWpiTuZ81n_vJCsIxmSi6DI_2dnXrszNoCu9hJnJUJYsLFtN5mVfuEhPy0z2dGdUiCeCNwPbrGTU2CrpjHzpg7_JnCom484o7nW_QxDV2F2nYnxI'
+        'Bearer  BQDepY94rIt51SX247GuSOCNXh8pV2FiRqQeMX-IDNWOhivW6KbTB7Ak3bGdLZa5Pp4l1xxPbIdpUWNT7cIg4kiPLNltA46XikL5kS7kCq6UUN7Xv13JdrfIr199c-SQrAL_UQT0A9To3dayQa5j7iM4x0Z5t54'
     });
   
   }
