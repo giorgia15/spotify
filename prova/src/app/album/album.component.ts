@@ -15,7 +15,7 @@ export class AlbumComponent implements OnInit {
   routeObs: Observable<ParamMap>;
   spotifyServiceObs : Observable<Object>;
 
- album: any; //Qui salverò la traccia selezionata
+  album: any; //Qui salverò la traccia selezionata
 
   //Usiamo la dependency injection per farci mandare i moduli del routing e dello    
   //SpotifyService
